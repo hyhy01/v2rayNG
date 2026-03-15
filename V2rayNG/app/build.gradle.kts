@@ -9,7 +9,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.v3a.ang"
+        applicationId = "com.v3a.b"
         minSdk = 24
         targetSdk = 36
         versionCode = 715
