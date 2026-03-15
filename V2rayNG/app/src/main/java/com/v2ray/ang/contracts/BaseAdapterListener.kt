@@ -1,4 +1,4 @@
-package com.v2ray.ang.contracts
+package com.v3a.ang.contracts
 
 /**
  * A common Adapter -> host callback interface that includes common actions: edit, remove and refresh.

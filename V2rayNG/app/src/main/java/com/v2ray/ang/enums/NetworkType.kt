@@ -1,4 +1,4 @@
-package com.v2ray.ang.enums
+package com.v3a.ang.enums
 
 enum class NetworkType(val type: String) {
     TCP("tcp"),

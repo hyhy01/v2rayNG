@@ -1,16 +1,16 @@
-package com.v2ray.ang.service
+package com.v3a.ang.service
 
 import android.app.Service
 import android.content.Intent
 import android.os.IBinder
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.MSG_MEASURE_CONFIG
-import com.v2ray.ang.AppConfig.MSG_MEASURE_CONFIG_CANCEL
-import com.v2ray.ang.dto.TestServiceMessage
-import com.v2ray.ang.extension.serializable
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.V2RayNativeManager
-import com.v2ray.ang.util.MessageUtil
+import com.v3a.ang.AppConfig
+import com.v3a.ang.AppConfig.MSG_MEASURE_CONFIG
+import com.v3a.ang.AppConfig.MSG_MEASURE_CONFIG_CANCEL
+import com.v3a.ang.dto.TestServiceMessage
+import com.v3a.ang.extension.serializable
+import com.v3a.ang.handler.MmkvManager
+import com.v3a.ang.handler.V2RayNativeManager
+import com.v3a.ang.util.MessageUtil
 import java.util.Collections
 
 class V2RayTestService : Service() {

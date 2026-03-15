@@ -1,12 +1,12 @@
-package com.v2ray.ang.ui
+package com.v3a.ang.ui
 
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.databinding.ItemRecyclerLogcatBinding
-import com.v2ray.ang.viewmodel.LogcatViewModel
+import com.v3a.ang.AppConfig
+import com.v3a.ang.databinding.ItemRecyclerLogcatBinding
+import com.v3a.ang.viewmodel.LogcatViewModel
 
 class LogcatRecyclerAdapter(
     private val viewModel: LogcatViewModel,

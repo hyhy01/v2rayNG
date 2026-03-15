@@ -1,9 +1,9 @@
-package com.v2ray.ang.ui
+package com.v3a.ang.ui
 
 import android.annotation.SuppressLint
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.v2ray.ang.dto.GroupMapItem
+import com.v3a.ang.dto.GroupMapItem
 
 /**
  * Pager adapter for subscription groups.

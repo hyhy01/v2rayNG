@@ -1,4 +1,4 @@
-package com.v2ray.ang.util
+package com.v3a.ang.util
 
 import android.util.Log
 import com.google.gson.Gson
@@ -9,7 +9,7 @@ import com.google.gson.JsonPrimitive
 import com.google.gson.JsonSerializationContext
 import com.google.gson.JsonSerializer
 import com.google.gson.reflect.TypeToken
-import com.v2ray.ang.AppConfig
+import com.v3a.ang.AppConfig
 import java.lang.reflect.Type
 
 object JsonUtil {

@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.v3a.ang.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -6,15 +6,15 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.ArrayAdapter
 import androidx.appcompat.app.AlertDialog
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityServerGroupBinding
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.Utils
+import com.v3a.ang.R
+import com.v3a.ang.databinding.ActivityServerGroupBinding
+import com.v3a.ang.dto.ProfileItem
+import com.v3a.ang.enums.EConfigType
+import com.v3a.ang.extension.isNotNullEmpty
+import com.v3a.ang.extension.toast
+import com.v3a.ang.extension.toastSuccess
+import com.v3a.ang.handler.MmkvManager
+import com.v3a.ang.util.Utils
 
 class ServerGroupActivity : BaseActivity() {
     private val binding by lazy { ActivityServerGroupBinding.inflate(layoutInflater) }

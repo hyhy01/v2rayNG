@@ -1,4 +1,4 @@
-package com.v2ray.ang.util
+package com.v3a.ang.util
 
 import android.content.Context
 import android.content.ContextWrapper

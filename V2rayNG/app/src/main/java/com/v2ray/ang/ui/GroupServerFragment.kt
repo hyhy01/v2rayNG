@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.v3a.ang.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,20 +12,20 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.contracts.MainAdapterListener
-import com.v2ray.ang.databinding.FragmentGroupServerBinding
-import com.v2ray.ang.databinding.ItemQrcodeBinding
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastError
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.AngConfigManager
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.helper.SimpleItemTouchHelperCallback
-import com.v2ray.ang.viewmodel.MainViewModel
+import com.v3a.ang.AppConfig
+import com.v3a.ang.R
+import com.v3a.ang.contracts.MainAdapterListener
+import com.v3a.ang.databinding.FragmentGroupServerBinding
+import com.v3a.ang.databinding.ItemQrcodeBinding
+import com.v3a.ang.dto.ProfileItem
+import com.v3a.ang.enums.EConfigType
+import com.v3a.ang.extension.toast
+import com.v3a.ang.extension.toastError
+import com.v3a.ang.extension.toastSuccess
+import com.v3a.ang.handler.AngConfigManager
+import com.v3a.ang.handler.MmkvManager
+import com.v3a.ang.helper.SimpleItemTouchHelperCallback
+import com.v3a.ang.viewmodel.MainViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.v3a.ang.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -12,18 +12,18 @@ import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.contracts.BaseAdapterListener
-import com.v2ray.ang.databinding.ActivitySubSettingBinding
-import com.v2ray.ang.databinding.ItemQrcodeBinding
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.handler.AngConfigManager
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.helper.SimpleItemTouchHelperCallback
-import com.v2ray.ang.util.QRCodeDecoder
-import com.v2ray.ang.util.Utils
-import com.v2ray.ang.viewmodel.SubscriptionsViewModel
+import com.v3a.ang.AppConfig
+import com.v3a.ang.R
+import com.v3a.ang.contracts.BaseAdapterListener
+import com.v3a.ang.databinding.ActivitySubSettingBinding
+import com.v3a.ang.databinding.ItemQrcodeBinding
+import com.v3a.ang.extension.toast
+import com.v3a.ang.handler.AngConfigManager
+import com.v3a.ang.handler.MmkvManager
+import com.v3a.ang.helper.SimpleItemTouchHelperCallback
+import com.v3a.ang.util.QRCodeDecoder
+import com.v3a.ang.util.Utils
+import com.v3a.ang.viewmodel.SubscriptionsViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

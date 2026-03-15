@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.v3a.ang.ui
 
 import android.os.Bundle
 import android.view.View
@@ -9,15 +9,15 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.PeriodicWorkRequest
 import androidx.work.multiprocess.RemoteWorkManager
-import com.v2ray.ang.AngApplication
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.VPN
-import com.v2ray.ang.R
-import com.v2ray.ang.extension.toLongEx
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SubscriptionUpdater
-import com.v2ray.ang.helper.MmkvPreferenceDataStore
-import com.v2ray.ang.util.Utils
+import com.v3a.ang.AngApplication
+import com.v3a.ang.AppConfig
+import com.v3a.ang.AppConfig.VPN
+import com.v3a.ang.R
+import com.v3a.ang.extension.toLongEx
+import com.v3a.ang.handler.MmkvManager
+import com.v3a.ang.handler.SubscriptionUpdater
+import com.v3a.ang.helper.MmkvPreferenceDataStore
+import com.v3a.ang.util.Utils
 import java.util.concurrent.TimeUnit
 
 class SettingsActivity : BaseActivity() {

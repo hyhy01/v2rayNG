@@ -1,4 +1,4 @@
-package com.v2ray.ang.handler
+package com.v3a.ang.handler
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
@@ -10,8 +10,8 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
+import com.v3a.ang.AppConfig
+import com.v3a.ang.R
 
 object SubscriptionUpdater {
 

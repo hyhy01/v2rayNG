@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.v3a.ang.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -6,16 +6,16 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivitySubEditBinding
-import com.v2ray.ang.dto.SubscriptionItem
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsChangeManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.util.Utils
+import com.v3a.ang.AppConfig
+import com.v3a.ang.R
+import com.v3a.ang.databinding.ActivitySubEditBinding
+import com.v3a.ang.dto.SubscriptionItem
+import com.v3a.ang.extension.toast
+import com.v3a.ang.extension.toastSuccess
+import com.v3a.ang.handler.MmkvManager
+import com.v3a.ang.handler.SettingsChangeManager
+import com.v3a.ang.handler.SettingsManager
+import com.v3a.ang.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

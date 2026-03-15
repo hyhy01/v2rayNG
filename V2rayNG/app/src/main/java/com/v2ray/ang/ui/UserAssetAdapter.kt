@@ -1,15 +1,15 @@
-package com.v2ray.ang.ui
+package com.v3a.ang.ui
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.R
-import com.v2ray.ang.contracts.BaseAdapterListener
-import com.v2ray.ang.databinding.ItemRecyclerUserAssetBinding
-import com.v2ray.ang.extension.toTrafficString
-import com.v2ray.ang.viewmodel.UserAssetViewModel
+import com.v3a.ang.R
+import com.v3a.ang.contracts.BaseAdapterListener
+import com.v3a.ang.databinding.ItemRecyclerUserAssetBinding
+import com.v3a.ang.extension.toTrafficString
+import com.v3a.ang.viewmodel.UserAssetViewModel
 import java.io.File
 import java.text.DateFormat
 import java.util.Date

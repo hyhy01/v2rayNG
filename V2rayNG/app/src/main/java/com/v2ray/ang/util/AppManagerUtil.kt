@@ -1,9 +1,9 @@
-package com.v2ray.ang.util
+package com.v3a.ang.util
 
 import android.content.Context
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
-import com.v2ray.ang.dto.AppInfo
+import com.v3a.ang.dto.AppInfo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

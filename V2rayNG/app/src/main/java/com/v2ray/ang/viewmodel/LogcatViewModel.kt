@@ -1,8 +1,8 @@
-package com.v2ray.ang.viewmodel
+package com.v3a.ang.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.ANG_PACKAGE
+import com.v3a.ang.AppConfig
+import com.v3a.ang.AppConfig.ANG_PACKAGE
 import java.io.IOException
 
 class LogcatViewModel : ViewModel() {

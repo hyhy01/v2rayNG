@@ -1,13 +1,13 @@
-package com.v2ray.ang.handler
+package com.v3a.ang.handler
 
 import android.content.Context
 import android.os.SystemClock
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.IPAPIInfo
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.JsonUtil
+import com.v3a.ang.AppConfig
+import com.v3a.ang.R
+import com.v3a.ang.dto.IPAPIInfo
+import com.v3a.ang.util.HttpUtil
+import com.v3a.ang.util.JsonUtil
 import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.isActive
 import java.io.IOException

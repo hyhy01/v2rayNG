@@ -1,4 +1,4 @@
-package com.v2ray.ang.dto
+package com.v3a.ang.dto
 
 data class GroupMapItem(
     var id: String,

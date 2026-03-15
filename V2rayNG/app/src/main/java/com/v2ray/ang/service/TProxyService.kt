@@ -1,12 +1,12 @@
-package com.v2ray.ang.service
+package com.v3a.ang.service
 
 import android.content.Context
 import android.os.ParcelFileDescriptor
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.contracts.Tun2SocksControl
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
+import com.v3a.ang.AppConfig
+import com.v3a.ang.contracts.Tun2SocksControl
+import com.v3a.ang.handler.MmkvManager
+import com.v3a.ang.handler.SettingsManager
 import java.io.File
 
 /**

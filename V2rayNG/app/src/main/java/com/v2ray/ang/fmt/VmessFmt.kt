@@ -1,19 +1,19 @@
-package com.v2ray.ang.fmt
+package com.v3a.ang.fmt
 
 import android.text.TextUtils
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.V2rayConfig.OutboundBean
-import com.v2ray.ang.dto.VmessQRCode
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.enums.NetworkType
-import com.v2ray.ang.extension.idnHost
-import com.v2ray.ang.extension.nullIfBlank
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.V2rayConfigManager
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.v3a.ang.AppConfig
+import com.v3a.ang.dto.ProfileItem
+import com.v3a.ang.dto.V2rayConfig.OutboundBean
+import com.v3a.ang.dto.VmessQRCode
+import com.v3a.ang.enums.EConfigType
+import com.v3a.ang.enums.NetworkType
+import com.v3a.ang.extension.idnHost
+import com.v3a.ang.extension.nullIfBlank
+import com.v3a.ang.handler.MmkvManager
+import com.v3a.ang.handler.V2rayConfigManager
+import com.v3a.ang.util.JsonUtil
+import com.v3a.ang.util.Utils
 import java.net.URI
 
 object VmessFmt : FmtBase() {

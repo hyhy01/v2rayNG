@@ -1,12 +1,12 @@
-package com.v2ray.ang.ui
+package com.v3a.ang.ui
 
 import android.os.Bundle
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityAboutBinding
-import com.v2ray.ang.handler.V2RayNativeManager
-import com.v2ray.ang.util.Utils
+import com.v3a.ang.AppConfig
+import com.v3a.ang.BuildConfig
+import com.v3a.ang.R
+import com.v3a.ang.databinding.ActivityAboutBinding
+import com.v3a.ang.handler.V2RayNativeManager
+import com.v3a.ang.util.Utils
 
 class AboutActivity : BaseActivity() {
     private val binding by lazy { ActivityAboutBinding.inflate(layoutInflater) }

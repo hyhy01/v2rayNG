@@ -1,10 +1,10 @@
-package com.v2ray.ang.fmt
+package com.v3a.ang.fmt
 
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.V2rayConfig.OutboundBean
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.handler.V2rayConfigManager
+import com.v3a.ang.dto.ProfileItem
+import com.v3a.ang.dto.V2rayConfig.OutboundBean
+import com.v3a.ang.enums.EConfigType
+import com.v3a.ang.extension.isNotNullEmpty
+import com.v3a.ang.handler.V2rayConfigManager
 
 object HttpFmt : FmtBase() {
     /**

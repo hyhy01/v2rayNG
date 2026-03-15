@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.v3a.ang.ui
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -6,11 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.contracts.BaseAdapterListener
-import com.v2ray.ang.databinding.ItemRecyclerRoutingSettingBinding
-import com.v2ray.ang.helper.ItemTouchHelperAdapter
-import com.v2ray.ang.helper.ItemTouchHelperViewHolder
-import com.v2ray.ang.viewmodel.RoutingSettingsViewModel
+import com.v3a.ang.contracts.BaseAdapterListener
+import com.v3a.ang.databinding.ItemRecyclerRoutingSettingBinding
+import com.v3a.ang.helper.ItemTouchHelperAdapter
+import com.v3a.ang.helper.ItemTouchHelperViewHolder
+import com.v3a.ang.viewmodel.RoutingSettingsViewModel
 
 class RoutingSettingRecyclerAdapter(
     private val viewModel: RoutingSettingsViewModel,

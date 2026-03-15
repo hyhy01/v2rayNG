@@ -1,12 +1,12 @@
-package com.v2ray.ang.util
+package com.v3a.ang.util
 
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.TestServiceMessage
-import com.v2ray.ang.service.V2RayTestService
+import com.v3a.ang.AppConfig
+import com.v3a.ang.dto.TestServiceMessage
+import com.v3a.ang.service.V2RayTestService
 import java.io.Serializable
 
 object MessageUtil {
