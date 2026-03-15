@@ -69,12 +69,12 @@ jobs:
         echo "CURRENT_TAG=$CURRENT_TAG" >> $GITHUB_ENV
         popd
 
-    - name: Download libv3
+    - name: Download libv2ray
       uses: robinraju/release-downloader@v1.12
       with:
         repository: '2dust/AndroidLibXrayLite'
         tag: ${{ env.CURRENT_TAG }}
-        fileName: 'libv3.aar'
+        fileName: 'libv2ray.aar'
         out-file-path: V2rayNG/app/libs/
 
     - name: Setup Java
@@ -120,7 +120,7 @@ jobs:
         path: ${{ github.workspace }}/V2rayNG/app/build/outputs/apk/*/release/*x86*.apk
 
     - name: Upload to release
-      uses: svenstaro/upload-release-action@v3
+      uses: svenstaro/upload-release-action@v2
       if: github.event.inputs.release_tag != ''
       with:
         file: ${{ github.workspace }}/V2rayNG/app/build/outputs/apk/*/release/*.apk
