@@ -1,14 +1,14 @@
-package com.v3a.ang.viewmodel
+package com.v2ray.ang.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
-import com.v3a.ang.AppConfig
-import com.v3a.ang.dto.AssetUrlCache
-import com.v3a.ang.dto.AssetUrlItem
-import com.v3a.ang.extension.concatUrl
-import com.v3a.ang.handler.MmkvManager
-import com.v3a.ang.util.HttpUtil
-import com.v3a.ang.util.Utils
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.dto.AssetUrlCache
+import com.v2ray.ang.dto.AssetUrlItem
+import com.v2ray.ang.extension.concatUrl
+import com.v2ray.ang.handler.MmkvManager
+import com.v2ray.ang.util.HttpUtil
+import com.v2ray.ang.util.Utils
 import java.io.File
 import java.io.FileOutputStream
 import java.net.HttpURLConnection

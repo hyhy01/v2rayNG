@@ -1,4 +1,4 @@
-package com.v3a.ang.handler
+package com.v2ray.ang.handler
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -12,11 +12,11 @@ import android.os.Build
 import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
-import com.v3a.ang.AppConfig
-import com.v3a.ang.R
-import com.v3a.ang.dto.ProfileItem
-import com.v3a.ang.extension.toSpeedString
-import com.v3a.ang.ui.MainActivity
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.R
+import com.v2ray.ang.dto.ProfileItem
+import com.v2ray.ang.extension.toSpeedString
+import com.v2ray.ang.ui.MainActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

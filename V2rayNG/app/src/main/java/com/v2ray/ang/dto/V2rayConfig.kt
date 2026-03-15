@@ -1,8 +1,8 @@
-package com.v3a.ang.dto
+package com.v2ray.ang.dto
 
 import com.google.gson.annotations.SerializedName
-import com.v3a.ang.AppConfig
-import com.v3a.ang.enums.EConfigType
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.enums.EConfigType
 
 data class V2rayConfig(
     var remarks: String? = null,

@@ -1,4 +1,4 @@
-package com.v3a.ang.util
+package com.v2ray.ang.util
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -16,9 +16,9 @@ import android.util.Patterns
 import android.webkit.URLUtil
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
-import com.v3a.ang.AppConfig
-import com.v3a.ang.AppConfig.LOOPBACK
-import com.v3a.ang.BuildConfig
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.AppConfig.LOOPBACK
+import com.v2ray.ang.BuildConfig
 import java.io.IOException
 import java.net.InetAddress
 import java.net.ServerSocket
@@ -533,7 +533,7 @@ object Utils {
      *
      * @return True if the package is Xray, false otherwise.
      */
-    fun isXray(): Boolean = BuildConfig.APPLICATION_ID.startsWith("com.v3a.ang")
+    fun isXray(): Boolean = BuildConfig.APPLICATION_ID.startsWith("com.v2ray.ang")
 
     /**
      * Check if it is the Google Play version.

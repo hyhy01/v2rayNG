@@ -1,15 +1,15 @@
-package com.v3a.ang.handler
+package com.v2ray.ang.handler
 
 import android.content.Context
 import android.os.Build
 import android.util.Log
-import com.v3a.ang.AppConfig
-import com.v3a.ang.BuildConfig
-import com.v3a.ang.dto.CheckUpdateResult
-import com.v3a.ang.dto.GitHubRelease
-import com.v3a.ang.extension.concatUrl
-import com.v3a.ang.util.HttpUtil
-import com.v3a.ang.util.JsonUtil
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.BuildConfig
+import com.v2ray.ang.dto.CheckUpdateResult
+import com.v2ray.ang.dto.GitHubRelease
+import com.v2ray.ang.extension.concatUrl
+import com.v2ray.ang.util.HttpUtil
+import com.v2ray.ang.util.JsonUtil
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File

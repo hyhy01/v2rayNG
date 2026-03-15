@@ -1,6 +1,6 @@
-package com.v3a.ang
+package com.v2ray.ang
 
-import com.v3a.ang.util.Utils
+import com.v2ray.ang.util.Utils
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue

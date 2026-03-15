@@ -1,4 +1,4 @@
-package com.v3a.ang.handler
+package com.v2ray.ang.handler
 
 import android.app.Service
 import android.content.BroadcastReceiver
@@ -8,16 +8,16 @@ import android.content.IntentFilter
 import android.os.ParcelFileDescriptor
 import android.util.Log
 import androidx.core.content.ContextCompat
-import com.v3a.ang.AppConfig
-import com.v3a.ang.R
-import com.v3a.ang.contracts.ServiceControl
-import com.v3a.ang.dto.ProfileItem
-import com.v3a.ang.enums.EConfigType
-import com.v3a.ang.extension.toast
-import com.v3a.ang.service.V2RayProxyOnlyService
-import com.v3a.ang.service.V2RayVpnService
-import com.v3a.ang.util.MessageUtil
-import com.v3a.ang.util.Utils
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.R
+import com.v2ray.ang.contracts.ServiceControl
+import com.v2ray.ang.dto.ProfileItem
+import com.v2ray.ang.enums.EConfigType
+import com.v2ray.ang.extension.toast
+import com.v2ray.ang.service.V2RayProxyOnlyService
+import com.v2ray.ang.service.V2RayVpnService
+import com.v2ray.ang.util.MessageUtil
+import com.v2ray.ang.util.Utils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

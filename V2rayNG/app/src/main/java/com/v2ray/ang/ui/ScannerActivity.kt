@@ -1,4 +1,4 @@
-package com.v3a.ang.ui
+package com.v2ray.ang.ui
 
 import android.content.Intent
 import android.graphics.BitmapFactory
@@ -6,12 +6,12 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import com.v3a.ang.AppConfig
-import com.v3a.ang.R
-import com.v3a.ang.databinding.ActivityNoneBinding
-import com.v3a.ang.extension.toast
-import com.v3a.ang.handler.MmkvManager
-import com.v3a.ang.util.QRCodeDecoder
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.R
+import com.v2ray.ang.databinding.ActivityNoneBinding
+import com.v2ray.ang.extension.toast
+import com.v2ray.ang.handler.MmkvManager
+import com.v2ray.ang.util.QRCodeDecoder
 import io.github.g00fy2.quickie.QRResult
 import io.github.g00fy2.quickie.ScanCustomCode
 import io.github.g00fy2.quickie.config.BarcodeFormat

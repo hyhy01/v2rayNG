@@ -1,4 +1,4 @@
-package com.v3a.ang.ui
+package com.v2ray.ang.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -8,17 +8,17 @@ import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import com.blacksquircle.ui.editorkit.utils.EditorTheme
 import com.blacksquircle.ui.language.json.JsonLanguage
-import com.v3a.ang.AppConfig
-import com.v3a.ang.R
-import com.v3a.ang.databinding.ActivityServerCustomConfigBinding
-import com.v3a.ang.dto.ProfileItem
-import com.v3a.ang.enums.EConfigType
-import com.v3a.ang.extension.toast
-import com.v3a.ang.extension.toastSuccess
-import com.v3a.ang.fmt.CustomFmt
-import com.v3a.ang.handler.AngConfigManager
-import com.v3a.ang.handler.MmkvManager
-import com.v3a.ang.util.Utils
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.R
+import com.v2ray.ang.databinding.ActivityServerCustomConfigBinding
+import com.v2ray.ang.dto.ProfileItem
+import com.v2ray.ang.enums.EConfigType
+import com.v2ray.ang.extension.toast
+import com.v2ray.ang.extension.toastSuccess
+import com.v2ray.ang.fmt.CustomFmt
+import com.v2ray.ang.handler.AngConfigManager
+import com.v2ray.ang.handler.MmkvManager
+import com.v2ray.ang.util.Utils
 
 class ServerCustomConfigActivity : BaseActivity() {
     private val binding by lazy { ActivityServerCustomConfigBinding.inflate(layoutInflater) }

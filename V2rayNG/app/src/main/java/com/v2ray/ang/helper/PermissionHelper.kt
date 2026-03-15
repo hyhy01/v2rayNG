@@ -1,13 +1,13 @@
-package com.v3a.ang.helper
+package com.v2ray.ang.helper
 
 import android.content.pm.PackageManager
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.v3a.ang.R
-import com.v3a.ang.enums.PermissionType
-import com.v3a.ang.extension.toast
+import com.v2ray.ang.R
+import com.v2ray.ang.enums.PermissionType
+import com.v2ray.ang.extension.toast
 
 /**
  * Helper for requesting permissions.

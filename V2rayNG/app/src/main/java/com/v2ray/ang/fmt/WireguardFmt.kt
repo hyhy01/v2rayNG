@@ -1,15 +1,15 @@
-package com.v3a.ang.fmt
+package com.v2ray.ang.fmt
 
-import com.v3a.ang.AppConfig
-import com.v3a.ang.AppConfig.WIREGUARD_LOCAL_ADDRESS_V4
-import com.v3a.ang.dto.ProfileItem
-import com.v3a.ang.dto.V2rayConfig.OutboundBean
-import com.v3a.ang.enums.EConfigType
-import com.v3a.ang.extension.idnHost
-import com.v3a.ang.extension.nullIfBlank
-import com.v3a.ang.extension.removeWhiteSpace
-import com.v3a.ang.handler.V2rayConfigManager
-import com.v3a.ang.util.Utils
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.AppConfig.WIREGUARD_LOCAL_ADDRESS_V4
+import com.v2ray.ang.dto.ProfileItem
+import com.v2ray.ang.dto.V2rayConfig.OutboundBean
+import com.v2ray.ang.enums.EConfigType
+import com.v2ray.ang.extension.idnHost
+import com.v2ray.ang.extension.nullIfBlank
+import com.v2ray.ang.extension.removeWhiteSpace
+import com.v2ray.ang.handler.V2rayConfigManager
+import com.v2ray.ang.util.Utils
 import java.net.URI
 
 object WireguardFmt : FmtBase() {

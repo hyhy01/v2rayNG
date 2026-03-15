@@ -1,4 +1,4 @@
-package com.v3a.ang.ui
+package com.v2ray.ang.ui
 
 import android.annotation.SuppressLint
 import android.graphics.Color
@@ -7,19 +7,19 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.v3a.ang.AppConfig
-import com.v3a.ang.R
-import com.v3a.ang.contracts.MainAdapterListener
-import com.v3a.ang.databinding.ItemRecyclerFooterBinding
-import com.v3a.ang.databinding.ItemRecyclerMainBinding
-import com.v3a.ang.dto.ProfileItem
-import com.v3a.ang.dto.ServersCache
-import com.v3a.ang.extension.nullIfBlank
-import com.v3a.ang.handler.AngConfigManager
-import com.v3a.ang.handler.MmkvManager
-import com.v3a.ang.helper.ItemTouchHelperAdapter
-import com.v3a.ang.helper.ItemTouchHelperViewHolder
-import com.v3a.ang.viewmodel.MainViewModel
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.R
+import com.v2ray.ang.contracts.MainAdapterListener
+import com.v2ray.ang.databinding.ItemRecyclerFooterBinding
+import com.v2ray.ang.databinding.ItemRecyclerMainBinding
+import com.v2ray.ang.dto.ProfileItem
+import com.v2ray.ang.dto.ServersCache
+import com.v2ray.ang.extension.nullIfBlank
+import com.v2ray.ang.handler.AngConfigManager
+import com.v2ray.ang.handler.MmkvManager
+import com.v2ray.ang.helper.ItemTouchHelperAdapter
+import com.v2ray.ang.helper.ItemTouchHelperViewHolder
+import com.v2ray.ang.viewmodel.MainViewModel
 import java.util.Collections
 
 class MainRecyclerAdapter(

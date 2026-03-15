@@ -1,15 +1,15 @@
-package com.v3a.ang.service
+package com.v2ray.ang.service
 
 import android.app.Service
 import android.content.Context
 import android.content.Intent
 import android.os.IBinder
 import android.util.Log
-import com.v3a.ang.AppConfig
-import com.v3a.ang.contracts.ServiceControl
-import com.v3a.ang.handler.SettingsManager
-import com.v3a.ang.handler.V2RayServiceManager
-import com.v3a.ang.util.MyContextWrapper
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.contracts.ServiceControl
+import com.v2ray.ang.handler.SettingsManager
+import com.v2ray.ang.handler.V2RayServiceManager
+import com.v2ray.ang.util.MyContextWrapper
 import java.lang.ref.SoftReference
 
 class V2RayProxyOnlyService : Service(), ServiceControl {

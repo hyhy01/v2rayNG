@@ -1,6 +1,6 @@
-package com.v3a.ang.contracts
+package com.v2ray.ang.contracts
 
-import com.v3a.ang.dto.ProfileItem
+import com.v2ray.ang.dto.ProfileItem
 
 interface MainAdapterListener :BaseAdapterListener {
 

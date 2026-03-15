@@ -1,4 +1,4 @@
-package com.v3a.ang.helper
+package com.v2ray.ang.helper
 
 import android.graphics.Canvas
 import android.graphics.Rect

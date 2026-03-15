@@ -1,4 +1,4 @@
-package com.v3a.ang.ui
+package com.v2ray.ang.ui
 
 import android.content.Context
 import android.os.Bundle
@@ -15,11 +15,11 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.progressindicator.LinearProgressIndicator
-import com.v3a.ang.R
-import com.v3a.ang.handler.SettingsManager
-import com.v3a.ang.helper.CustomDividerItemDecoration
-import com.v3a.ang.util.MyContextWrapper
-import com.v3a.ang.util.Utils
+import com.v2ray.ang.R
+import com.v2ray.ang.handler.SettingsManager
+import com.v2ray.ang.helper.CustomDividerItemDecoration
+import com.v2ray.ang.util.MyContextWrapper
+import com.v2ray.ang.util.Utils
 
 
 /**

@@ -1,4 +1,4 @@
-package com.v3a.ang.dto
+package com.v2ray.ang.dto
 
 data class WebDavConfig(
     val baseUrl: String,

@@ -1,10 +1,10 @@
-package com.v3a.ang.helper
+package com.v2ray.ang.helper
 
 import android.content.Intent
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.v3a.ang.ui.ScannerActivity
+import com.v2ray.ang.ui.ScannerActivity
 
 /**
  * Helper for scanning QR codes.

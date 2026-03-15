@@ -1,4 +1,4 @@
-package com.v3a.ang.ui
+package com.v2ray.ang.ui
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -12,18 +12,18 @@ import android.view.MenuItem
 import androidx.activity.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.v3a.ang.AppConfig
-import com.v3a.ang.R
-import com.v3a.ang.contracts.BaseAdapterListener
-import com.v3a.ang.databinding.ActivityUserAssetBinding
-import com.v3a.ang.dto.AssetUrlItem
-import com.v3a.ang.extension.toast
-import com.v3a.ang.extension.toastError
-import com.v3a.ang.extension.toastSuccess
-import com.v3a.ang.handler.MmkvManager
-import com.v3a.ang.handler.SettingsManager
-import com.v3a.ang.util.Utils
-import com.v3a.ang.viewmodel.UserAssetViewModel
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.R
+import com.v2ray.ang.contracts.BaseAdapterListener
+import com.v2ray.ang.databinding.ActivityUserAssetBinding
+import com.v2ray.ang.dto.AssetUrlItem
+import com.v2ray.ang.extension.toast
+import com.v2ray.ang.extension.toastError
+import com.v2ray.ang.extension.toastSuccess
+import com.v2ray.ang.handler.MmkvManager
+import com.v2ray.ang.handler.SettingsManager
+import com.v2ray.ang.util.Utils
+import com.v2ray.ang.viewmodel.UserAssetViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

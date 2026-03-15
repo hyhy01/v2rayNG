@@ -1,4 +1,4 @@
-package com.v3a.ang.service
+package com.v2ray.ang.service
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -9,11 +9,11 @@ import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 import android.util.Log
 import androidx.core.content.ContextCompat
-import com.v3a.ang.AppConfig
-import com.v3a.ang.R
-import com.v3a.ang.handler.V2RayServiceManager
-import com.v3a.ang.util.MessageUtil
-import com.v3a.ang.util.Utils
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.R
+import com.v2ray.ang.handler.V2RayServiceManager
+import com.v2ray.ang.util.MessageUtil
+import com.v2ray.ang.util.Utils
 import java.lang.ref.SoftReference
 
 class QSTileService : TileService() {

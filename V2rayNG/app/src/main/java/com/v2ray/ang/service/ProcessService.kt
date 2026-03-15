@@ -1,8 +1,8 @@
-package com.v3a.ang.service
+package com.v2ray.ang.service
 
 import android.content.Context
 import android.util.Log
-import com.v3a.ang.AppConfig
+import com.v2ray.ang.AppConfig
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

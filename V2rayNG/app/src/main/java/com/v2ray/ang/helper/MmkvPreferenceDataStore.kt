@@ -1,10 +1,10 @@
-package com.v3a.ang.helper
+package com.v2ray.ang.helper
 
 import androidx.preference.PreferenceDataStore
-import com.v3a.ang.AppConfig
-import com.v3a.ang.handler.MmkvManager
-import com.v3a.ang.handler.SettingsChangeManager
-import com.v3a.ang.handler.SettingsManager
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.handler.MmkvManager
+import com.v2ray.ang.handler.SettingsChangeManager
+import com.v2ray.ang.handler.SettingsManager
 
 /**
  * PreferenceDataStore implementation that bridges AndroidX Preference framework to MMKV storage.

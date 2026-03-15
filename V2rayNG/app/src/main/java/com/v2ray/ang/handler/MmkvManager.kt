@@ -1,19 +1,19 @@
-package com.v3a.ang.handler
+package com.v2ray.ang.handler
 
 import com.tencent.mmkv.MMKV
-import com.v3a.ang.AppConfig.DEFAULT_SUBSCRIPTION_ID
-import com.v3a.ang.AppConfig.PREF_IS_BOOTED
-import com.v3a.ang.AppConfig.PREF_ROUTING_RULESET
-import com.v3a.ang.dto.AssetUrlCache
-import com.v3a.ang.dto.AssetUrlItem
-import com.v3a.ang.dto.ProfileItem
-import com.v3a.ang.dto.RulesetItem
-import com.v3a.ang.dto.ServerAffiliationInfo
-import com.v3a.ang.dto.SubscriptionCache
-import com.v3a.ang.dto.SubscriptionItem
-import com.v3a.ang.dto.WebDavConfig
-import com.v3a.ang.util.JsonUtil
-import com.v3a.ang.util.Utils
+import com.v2ray.ang.AppConfig.DEFAULT_SUBSCRIPTION_ID
+import com.v2ray.ang.AppConfig.PREF_IS_BOOTED
+import com.v2ray.ang.AppConfig.PREF_ROUTING_RULESET
+import com.v2ray.ang.dto.AssetUrlCache
+import com.v2ray.ang.dto.AssetUrlItem
+import com.v2ray.ang.dto.ProfileItem
+import com.v2ray.ang.dto.RulesetItem
+import com.v2ray.ang.dto.ServerAffiliationInfo
+import com.v2ray.ang.dto.SubscriptionCache
+import com.v2ray.ang.dto.SubscriptionItem
+import com.v2ray.ang.dto.WebDavConfig
+import com.v2ray.ang.util.JsonUtil
+import com.v2ray.ang.util.Utils
 
 object MmkvManager {
 

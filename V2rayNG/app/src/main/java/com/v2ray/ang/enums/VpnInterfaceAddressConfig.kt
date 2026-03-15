@@ -1,4 +1,4 @@
-package com.v3a.ang.enums
+package com.v2ray.ang.enums
 
 /**
  * VPN interface address configuration enum class

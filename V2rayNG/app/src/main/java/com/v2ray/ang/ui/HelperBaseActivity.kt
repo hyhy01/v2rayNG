@@ -1,11 +1,11 @@
-package com.v3a.ang.ui
+package com.v2ray.ang.ui
 
 import android.net.Uri
 import android.os.Bundle
-import com.v3a.ang.enums.PermissionType
-import com.v3a.ang.helper.FileChooserHelper
-import com.v3a.ang.helper.PermissionHelper
-import com.v3a.ang.helper.QRCodeScannerHelper
+import com.v2ray.ang.enums.PermissionType
+import com.v2ray.ang.helper.FileChooserHelper
+import com.v2ray.ang.helper.PermissionHelper
+import com.v2ray.ang.helper.QRCodeScannerHelper
 
 /**
  * HelperBaseActivity extends BaseActivity and provides additional helpers for

@@ -1,4 +1,4 @@
-package com.v3a.ang.service
+package com.v2ray.ang.service
 
 import android.annotation.SuppressLint
 import android.app.Service
@@ -16,17 +16,17 @@ import android.os.ParcelFileDescriptor
 import android.os.StrictMode
 import android.util.Log
 import androidx.annotation.RequiresApi
-import com.v3a.ang.AppConfig
-import com.v3a.ang.AppConfig.LOOPBACK
-import com.v3a.ang.BuildConfig
-import com.v3a.ang.contracts.ServiceControl
-import com.v3a.ang.contracts.Tun2SocksControl
-import com.v3a.ang.handler.MmkvManager
-import com.v3a.ang.handler.NotificationManager
-import com.v3a.ang.handler.SettingsManager
-import com.v3a.ang.handler.V2RayServiceManager
-import com.v3a.ang.util.MyContextWrapper
-import com.v3a.ang.util.Utils
+import com.v2ray.ang.AppConfig
+import com.v2ray.ang.AppConfig.LOOPBACK
+import com.v2ray.ang.BuildConfig
+import com.v2ray.ang.contracts.ServiceControl
+import com.v2ray.ang.contracts.Tun2SocksControl
+import com.v2ray.ang.handler.MmkvManager
+import com.v2ray.ang.handler.NotificationManager
+import com.v2ray.ang.handler.SettingsManager
+import com.v2ray.ang.handler.V2RayServiceManager
+import com.v2ray.ang.util.MyContextWrapper
+import com.v2ray.ang.util.Utils
 import java.lang.ref.SoftReference
 
 @SuppressLint("VpnServicePolicy")
