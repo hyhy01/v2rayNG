@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.v3.ang"
+    namespace = "com.v2ray.ang"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.v3.ang"
+        applicationId = "com.v2ray.ang"
         minSdk = 24
         targetSdk = 36
         versionCode = 715
@@ -92,7 +92,7 @@ android {
                 .map { it as com.android.build.gradle.internal.api.ApkVariantOutputImpl }
                 .forEach { output ->
                     val abi = output.getFilter("ABI") ?: "universal"
-                    output.outputFileName = "v3NG_${variant.versionName}-fdroid_${abi}.apk"
+                    output.outputFileName = "v2rayNG_${variant.versionName}-fdroid_${abi}.apk"
                     if (versionCodes.containsKey(abi)) {
                         output.versionCodeOverride =
                             (100 * variant.versionCode + versionCodes[abi]!!).plus(5000000)
@@ -112,7 +112,7 @@ android {
                     else
                         "universal"
 
-                    output.outputFileName = "v3NG_${variant.versionName}_${abi}.apk"
+                    output.outputFileName = "v2rayNG_${variant.versionName}_${abi}.apk"
                     if (versionCodes.containsKey(abi)) {
                         output.versionCodeOverride =
                             (1000000 * versionCodes[abi]!!).plus(variant.versionCode)

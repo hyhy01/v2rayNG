@@ -11,7 +11,7 @@
     <string name="pull_down_to_refresh">Please pull down to refresh!</string>
 
     <!-- Notifications -->
-    <string name="notification_action_stop_v3">বন্ধ করুন</string>
+    <string name="notification_action_stop_v2ray">বন্ধ করুন</string>
     <string name="toast_permission_denied">অনুমতি পাওয়া যাচ্ছে না</string>
     <string name="toast_permission_denied_notification">Unable to obtain the notification permission</string>
     <string name="notification_action_more">আরও দেখতে ক্লিক করুন</string>

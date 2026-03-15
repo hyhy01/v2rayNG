@@ -41,7 +41,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "v3.cool",
+          "address": "v2ray.cool",
           "port": 10086,
           "users": [
             {
@@ -55,7 +55,7 @@
       ],
       "servers": [
         {
-        "address": "v3.cool",
+        "address": "v2ray.cool",
         "method": "chacha20",
         "ota": false,
         "password": "123456",

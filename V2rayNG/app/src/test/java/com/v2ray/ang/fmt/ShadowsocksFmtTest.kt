@@ -1,9 +1,9 @@
-package com.v3.ang.fmt
+package com.v2ray.ang.fmt
 
 import android.util.Base64
 import android.util.Log
-import com.v3.ang.enums.EConfigType
-import com.v3.ang.dto.ProfileItem
+import com.v2ray.ang.enums.EConfigType
+import com.v2ray.ang.dto.ProfileItem
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

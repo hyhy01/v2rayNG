@@ -1,6 +1,6 @@
-package com.v3.ang
+package com.v2ray.ang
 
-import com.v3.ang.util.HttpUtil
+import com.v2ray.ang.util.HttpUtil
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

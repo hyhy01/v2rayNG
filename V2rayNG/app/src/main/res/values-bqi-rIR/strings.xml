@@ -11,7 +11,7 @@
     <string name="pull_down_to_refresh">سی وانۊ کردن، بکشینس بلم!</string>
 
     <!-- Notifications -->↓
-    <string name="notification_action_stop_v3">واڌاشتن</string>
+    <string name="notification_action_stop_v2ray">واڌاشتن</string>
     <string name="toast_permission_denied">گرؽڌن موجوز مومکن نؽڌ</string>
     <string name="toast_permission_denied_notification">گرؽڌن موجوز وارسۊوی مومکن نؽڌ</string>
     <string name="notification_action_more">سی گرؽڌن دۉسمندیا بیشتر کیلیک کوݩ</string>
